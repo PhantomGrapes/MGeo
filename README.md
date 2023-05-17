@@ -34,8 +34,8 @@ Having text-geolocation pairs, you can follow steps below to generate pretrain d
 - Download proper map from [OpenStreetMap](https://download.geofabrik.de/). For example, our geolocations used in paper are in HangZhou. Thus, we download [China](https://download.geofabrik.de/asia/china.html) map.
 - Import map and your text-geolocation data to a GIS database, like PostGIS. Every text is assigned with an ID. In demo case, ID is row number.
 - Find COVERED and NEARBY relations between map and geolocation using GIS database. Export to resources/location_in_aoi.demo, resources/location_near_aoi.demo, resources/location_near_road.demo.
-- Export needed AOIs and roads to resources/hz_aoi.txt and resources/hz_roads.txt. In our paper's setting, only elements in HangZhou are included.
-- Generate pretrain data using command: cd prepare_data && python calculate_geographic_context.py
+- Export needed AOIs and roads to resources/hz_aoi.txt and resources/hz_roads.txt. In our paper's setting, only elements in HangZhou are included. 
+- Generate pretrain data using command: cd prepare_data && python calculate_geographic_context.py . Use the length of geom_ids in calculate_geographic_context.py to replace vocab_size in resources/gis_config.json.
 
 ## Pretrain geographic encoder
 ```shell
