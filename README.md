@@ -3,7 +3,7 @@ MGeo: Multi-Modal Geographic Language Model Pre-Training
 
 # Release Note
 - 2023.01.16 Pretrained model and datasets are released in modelscope
-- 2023.04.05 Paper is accepted by SIGIR2023
+- 2023.04.05 Paper is accepted by SIGIR2023. Paper link: https://arxiv.org/abs/2301.04283
 - 2023.05.17 Pretraining and finetune codes in paper are released
 
 
