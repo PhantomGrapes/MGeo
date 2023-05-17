@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+output/Pretrain_gis_encoder
+output/Pretrain_mm
+output/Rerank
+output/Retrieval
+data/convert.py
+data/geoUtils.py
+resources/nlp_structbert_backbone_tiny_std
+data/*.jsonl

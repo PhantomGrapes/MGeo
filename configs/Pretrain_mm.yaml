@@ -1,0 +1,12 @@
+train_file: 'data/text_location.jsonl'
+
+gis_bert_config: 'resources/gis_config.json'
+
+batch_size_train: 64
+
+embed_dim: 256
+
+warm_up: True
+
+optimizer: {opt: adamW, lr: 5e-5, weight_decay: 0.02} 
+schedular: {sched: cosine, lr: 5e-5, epochs: 10, min_lr: 1e-6, decay_rate: 1, warmup_lr: 5e-5, warmup_epochs: 1, cooldown_epochs: 0}
