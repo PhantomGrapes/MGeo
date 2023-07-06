@@ -9,9 +9,11 @@ MGeo: Multi-Modal Geographic Language Model Pre-Training
 
 # Download
 
-- Pretrained model and finetune code are availabel at https://modelscope.cn/models/damo/mgeo_backbone_chinese_base/files
+- Pretrained model and finetune code for a more general geographic model on 6 tasks are availabel at https://modelscope.cn/models/damo/mgeo_backbone_chinese_base/files
 
 - Datasets are availabel at https://modelscope.cn/datasets/damo/GeoGLUE/files
+
+- Pretrained model used to reproduce paper results: https://drive.google.com/file/d/1j6S52jkxks4UBsCU8ZgLroqksUYSz5x7/view?usp=sharing
 
 # Reproduce results in paper
 ## Prepare environment
