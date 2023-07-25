@@ -6,15 +6,18 @@ MGeo: Multi-Modal Geographic Language Model Pre-Training
 - 2023.04.05 Paper is accepted by SIGIR2023. Paper link: https://arxiv.org/abs/2301.04283
 - 2023.05.17 Pretraining and finetune codes in paper are released
 - 2023.07.06 Pretrained model used to reproduce paper is released
+- 2023.07.25 dataset.zip download url is provided
 
 
 # Download
 
 - Pretrained model and finetune code for a more general geographic model on 6 tasks are availabel at https://modelscope.cn/models/damo/mgeo_backbone_chinese_base/files
 
-- Datasets are availabel at https://modelscope.cn/datasets/damo/GeoGLUE/files
+- Datasets are available at https://modelscope.cn/datasets/damo/GeoGLUE/files
 
 - Pretrained model used to reproduce paper results: https://drive.google.com/file/d/1j6S52jkxks4UBsCU8ZgLroqksUYSz5x7/view?usp=sharing
+
+- dataset.zip is available at https://drive.google.com/file/d/1KxN377_l-yNwsYBifS_o0f50tKBYNYj-/view?usp=sharing
 
 # Reproduce results in paper
 ## Prepare environment
